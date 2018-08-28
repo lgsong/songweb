@@ -4,6 +4,6 @@
 <configuration>
 <!-- 类的别名 -->
 <typeAliases>
-  <!-- <typeAlias type="com.elgin.entities.User" alias="User"/> -->
+  <typeAlias type="com.song.songweb.word.entity.Word" alias="Word"/>
 </typeAliases>
 </configuration>
