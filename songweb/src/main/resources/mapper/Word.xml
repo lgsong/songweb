@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.song.songweb.word.entity.Word">
+	<resultMap type="Word" id="WordMap">
+		<id column="WORD_ID" property="wordId"/>
+		<result column="WORD_VALUE" property="wordValue"/>
+		<result column="WORD_YEAR" property="wordYear"/>
+		<result column="IS_NEW" property="isNew"/>
+		<result column="WORD_COUNT" property="wordCount"/>
+	</resultMap>
+</mapper>
