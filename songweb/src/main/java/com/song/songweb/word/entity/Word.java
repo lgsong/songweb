@@ -21,20 +21,40 @@ package com.song.songweb.word.entity;
  */
 public class Word {
 
-	private String value;
-	private String year;
-	public String getValue() {
-		return value;
+	private String wordId;
+	private String wordValue;
+	private String wordYear;
+	private String isNew;
+	private String wordCount;
+	public String getWordId() {
+		return wordId;
 	}
-	public void setValue(String value) {
-		this.value = value;
+	public void setWordId(String wordId) {
+		this.wordId = wordId;
 	}
-	public String getYear() {
-		return year;
+	public String getWordValue() {
+		return wordValue;
 	}
-	public void setYear(String year) {
-		this.year = year;
+	public void setWordValue(String wordValue) {
+		this.wordValue = wordValue;
 	}
-	
+	public String getWordYear() {
+		return wordYear;
+	}
+	public void setWordYear(String wordYear) {
+		this.wordYear = wordYear;
+	}
+	public String getIsNew() {
+		return isNew;
+	}
+	public void setIsNew(String isNew) {
+		this.isNew = isNew;
+	}
+	public String getWordCount() {
+		return wordCount;
+	}
+	public void setWordCount(String wordCount) {
+		this.wordCount = wordCount;
+	}
 	
 }
