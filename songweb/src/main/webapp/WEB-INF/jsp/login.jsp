@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="ISO-8859-1"%>
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%
 	String path = request.getContextPath();
 	String basePath = request.getScheme() + "://"
@@ -10,7 +10,7 @@
 <html>
 <head>
 
-<title>My JSP 'login.jsp' starting page</title>
+<title>LOGIN</title>
 
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
@@ -20,16 +20,14 @@
 <!--
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	-->
+</head>
 <style type="text/css">
- body:{
- 	background-image: url("./images/login.jpg") 0px 0px / cover no-repeat;
- 	width: 100%;
-    height: 100%;
+ body{
+ 	background: url("../image/login.jpg") no-repeat center;
+ 	background-size:100% 100%;
  }
 </style>
-</head>
 
 <body>
-	<br>
 </body>
 </html>

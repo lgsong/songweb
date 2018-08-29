@@ -38,7 +38,7 @@ public class LoginController {
 	@Autowired
 	private IUserService userService;
 
-	@RequestMapping(value="/toLogin",method=RequestMethod.GET)
+	@RequestMapping(value="/toLogin")
 	public ModelAndView login(){
 		ModelAndView mav = new ModelAndView();
 		/*BASE64Decoder decoder =new BASE64Decoder();
