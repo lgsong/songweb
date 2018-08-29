@@ -17,17 +17,10 @@
 <meta http-equiv="expires" content="0">
 <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
 <meta http-equiv="description" content="This is my page">
-<!--
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	-->
+<link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
-<style type="text/css">
- body{
- 	background: url("../image/login.jpg") no-repeat center;
- 	background-size:100% 100%;
- }
-</style>
-
 <body>
+	<div style="margin:15% auto 0;border:grey 2px solid;width:60%;height:40%;background-color: white;">
+	</div>
 </body>
 </html>
