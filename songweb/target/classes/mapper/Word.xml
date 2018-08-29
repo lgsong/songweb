@@ -4,10 +4,10 @@
 
 <mapper namespace="com.song.songweb.word.entity.Word">
 	<resultMap type="Word" id="WordMap">
-		<id column="WORD_ID" property="wordId"/>
-		<result column="WORD_VALUE" property="wordValue"/>
-		<result column="WORD_YEAR" property="wordYear"/>
-		<result column="IS_NEW" property="isNew"/>
-		<result column="WORD_COUNT" property="wordCount"/>
+		<id column="word_id" property="wordId"/>
+		<result column="word_value" property="wordValue"/>
+		<result column="word_year" property="wordYear"/>
+		<result column="is_new" property="isNew"/>
+		<result column="word_count" property="wordCount"/>
 	</resultMap>
 </mapper>

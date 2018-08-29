@@ -5,6 +5,17 @@
  */
 package com.song.songweb.system.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import sun.misc.BASE64Decoder;
+
+import com.song.songweb.system.entity.User;
+import com.song.songweb.system.service.IUserService;
+
+
 /**  
  * <STRONG>类描述</STRONG> :  <p>
  *   
@@ -19,6 +30,23 @@ package com.song.songweb.system.controller;
  * songlg@huilan.com        2018-8-28 下午4:40:20
  *</pre>  
  */
+@Controller
+@RequestMapping(value="/login")
 public class LoginController {
+	
+	@Autowired
+	private IUserService userService;
 
+	@RequestMapping(value="/login")
+	public ModelAndView login(){
+		ModelAndView mav = new ModelAndView();
+		BASE64Decoder decoder =new BASE64Decoder();
+		User user = new User();
+		try {
+			user = userService.findUser(user);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return mav;
+	}
 }
