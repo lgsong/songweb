@@ -20,7 +20,7 @@
 <link rel="stylesheet" type="text/css" href="../css/login.css">
 </head>
 <body>
-	<div style="margin:15% auto 0;border:grey 2px solid;width:60%;height:40%;background-color: white;">
+	<div id="login-form">
 	</div>
 </body>
 </html>
