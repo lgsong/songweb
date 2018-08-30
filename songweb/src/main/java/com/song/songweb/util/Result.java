@@ -3,7 +3,7 @@
  *
  * Licensed under the Huilan License, Version 1.0 (the "License");
  */
-package com.song.songweb.system.entity;
+package com.song.songweb.util;
 
 import java.util.Map;
 

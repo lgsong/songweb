@@ -157,6 +157,10 @@ public class LoginController {
 	
 	@RequestMapping(value="chcekNum")
 	public void checkNum(HttpServletRequest request,HttpServletResponse response){
-		request.getParameter("number");
+		String num = request.getParameter("number");
+		String code = (String) request.getSession().getAttribute("checkcode");
+		if(num.equals(code)){
+			
+		}
 	}
 }
